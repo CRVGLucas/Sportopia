@@ -1,0 +1,1 @@
+export const API = 'https://site.api.espn.com/apis/site/v2/sports/'

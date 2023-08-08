@@ -1,0 +1,10 @@
+<header class="header">
+    <h1>LOGO</h1>
+
+    <h1>TIMES</h1>
+
+    <div class="sports-options bg-soccer" [ngClass]="typeSport == 'soccer' ? 'bg-soccer' : 'bg-basketball'">
+        <i (click)="toggleSwitch('soccer')" class="soccer"></i>
+        <i (click)="toggleSwitch('basketball')" class="basketball"></i>
+    </div>
+</header>

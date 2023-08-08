@@ -1,0 +1,8 @@
+<div class="articles-container">
+    <article class="article" *ngFor="let article of news.articles">
+        <img [src]="article.images[0].url" width="600" height="400" />
+        <h1>{{ article.headline}}</h1>
+        <p>{{ article.description }}</p>
+    </article>
+</div>
+
